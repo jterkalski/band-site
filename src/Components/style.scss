@@ -1,0 +1,23 @@
+.header {
+  flex: 1;
+  border: 1px solid blue;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+
+.body {
+  flex: 12;
+  border: 1px solid red;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+
+.footer {
+  flex: 1;
+  border: 1px solid green;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
