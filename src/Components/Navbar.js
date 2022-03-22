@@ -1,5 +1,5 @@
 import React from 'react';
-import NavItems from './NavbarComponents/NavItems';
+import NavItems from './NavItems';
 import './style.scss';
 
 const Header = () => {

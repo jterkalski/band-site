@@ -1,33 +1,63 @@
+$primary-bgcolor: #000;
+$primary-color: #fff;
+
+.footer-item:hover {
+  height: 44px;
+  width: 44px;
+  margin: 8px 18px;
+}
+
+.footer-item {
+  height: 40px;
+  width: 40px;
+  margin: 10px 20px;
+  filter: invert(100%);
+  transition: 0.2s;
+}
+
+.footer {
+  flex: 1;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  background-color: $primary-bgcolor;
+  color: $primary-color;
+}
+
+// Navbbar --------------------------------
+
 .logo {
-  max-height: 100%;
+  margin: 5px 2%;
+  max-height: 85%;
   align-self: flex-start;
 }
 
-.nav-item a {
+.nav-items .link:hover {
+  text-shadow: 2px 2px 5px gray;
+}
+
+.nav-items .link {
   text-decoration: none;
   font-family: 'Franklin Gothic', Helvetica, Arial, sans-serif;
   font-size: 1.5rem;
   line-height: 2rem;
-  color: black;
-}
-
-.nav-item {
-  border: 1px solid purple;
+  color: $primary-color;
+  transition: 0.2s;
 }
 
 .nav-items {
   display: flex;
   flex: 10;
   justify-content: space-around;
-  border: 1px solid orchid;
+  margin: 0 14% 0 10%;
 }
 
 .header {
   flex: 1;
   display: flex;
-  min-height: 0;
+  min-height: 40px;
   align-items: center;
-  border: 1px solid blue;
+  background-color: $primary-bgcolor;
 }
 
 .body {
@@ -36,12 +66,6 @@
   align-items: center;
   text-align: center;
   justify-content: center;
-}
-
-.footer {
-  flex: 1;
-  border: 1px solid green;
-  align-items: center;
-  text-align: center;
-  justify-content: center;
+  background-color: $primary-bgcolor;
+  color: $primary-color;
 }
