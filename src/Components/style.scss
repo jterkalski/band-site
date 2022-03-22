@@ -1,9 +1,33 @@
+.logo {
+  max-height: 100%;
+  align-self: flex-start;
+}
+
+.nav-item a {
+  text-decoration: none;
+  font-family: 'Franklin Gothic', Helvetica, Arial, sans-serif;
+  font-size: 1.5rem;
+  line-height: 2rem;
+  color: black;
+}
+
+.nav-item {
+  border: 1px solid purple;
+}
+
+.nav-items {
+  display: flex;
+  flex: 10;
+  justify-content: space-around;
+  border: 1px solid orchid;
+}
+
 .header {
   flex: 1;
-  border: 1px solid blue;
+  display: flex;
+  min-height: 0;
   align-items: center;
-  text-align: center;
-  justify-content: center;
+  border: 1px solid blue;
 }
 
 .body {
