@@ -14,9 +14,6 @@ const EventCards = () => {
       <EventCard />
       <EventCard />
       <EventCard />
-      <EventCard />
-      <EventCard />
-      <EventCard />
     </div>
   );
 };
