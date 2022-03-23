@@ -2,13 +2,13 @@ import React from 'react';
 import NavItems from './NavItems';
 import './style.scss';
 
-const Header = () => {
+const Navbar = () => {
   return (
-    <div className="header">
+    <div className="navbar">
       <img className="logo" src="./images/logo.svg" alt="band-logo" />
       <NavItems />
     </div>
   );
 };
 
-export default Header;
+export default Navbar;

@@ -10,6 +10,7 @@ const Body = () => {
     <div className="body">
       <Routes>
         <Route path="/events" element={<Events />}></Route>
+        <Route path="/" element={<Music />}></Route>
         <Route path="/music" element={<Music />}></Route>
         <Route path="/community" element={<Community />}></Route>
       </Routes>
