@@ -1,5 +1,5 @@
 import React from 'react';
-import './style.scss';
+import './Body.scss';
 import { Routes, Route } from 'react-router-dom';
 import Music from './Pages/Music';
 import Events from './Pages/Events';

@@ -1,0 +1,23 @@
+.event-cards {
+  display: flex;
+  text-align: center;
+  flex-wrap: wrap;
+  max-width: 1000px;
+  margin: 3% auto;
+  border-radius: 10px;
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.2));
+}
+
+.event-card {
+  height: 100px;
+  width: 100%;
+  padding: 10px 0 0 0;
+  margin: 0 10px;
+  border-bottom: 1px solid white;
+  border: 1px solid red;
+}
+
+.events-page {
+  margin: 0px 5%;
+  width: 100%;
+}

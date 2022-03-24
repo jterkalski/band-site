@@ -1,5 +1,5 @@
 import React from 'react';
-import '../style.scss';
+import './Music.scss';
 
 const Music = () => {
   return <div className="music-page">Music page</div>;
