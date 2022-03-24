@@ -9,16 +9,16 @@ const Footer = () => {
   return (
     <div className="footer">
       <a href="https://open.spotify.com/artist/3W9KJm1EVanHDVh80YkLQS" target="_blank" rel="noopener noreferrer">
-        <img className="footer-item" src={spotifyIcon} alt="spotify-icon" />
+        <img className="footer-item" src={spotifyIcon} alt="Spotify icon" />
       </a>
       <a href="https://www.instagram.com/fungy_band/" target="_blank" rel="noopener noreferrer">
-        <img className="footer-item" src={instagramIcon} href="" alt="instagram-icon" />
+        <img className="footer-item" src={instagramIcon} href="" alt="Instagram icon" />
       </a>
       <a href="https://www.facebook.com/fungy.band" target="_blank" rel="noopener noreferrer">
-        <img className="footer-item" src={facebookIcon} alt="facebook-icon" />
+        <img className="footer-item" src={facebookIcon} alt="Facebook icon" />
       </a>
       <a href="https://www.youtube.com/channel/UCXyQaRr4I7wIwtRSrFdyDnA" target="_blank" rel="noopener noreferrer">
-        <img className="footer-item" src={youtubeIcon} alt="youtube-icon" />
+        <img className="footer-item" src={youtubeIcon} alt="Youtube icon" />
       </a>
     </div>
   );
