@@ -1,0 +1,25 @@
+.footer-item:hover {
+  transform: scale(1.2);
+}
+
+.footer-item {
+  height: 40px;
+  width: 40px;
+  margin: 10px 20px;
+  filter: invert(100%);
+  transition: 0.25s;
+}
+
+.footer {
+  flex: 1;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  color: #fff;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  background: linear-gradient(0deg, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
+  margin-right: 20px;
+}

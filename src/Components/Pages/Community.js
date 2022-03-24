@@ -1,5 +1,5 @@
 import React from 'react';
-import '../style.scss';
+import './Community.scss';
 
 const Community = () => {
   return <div className="community-page">Community</div>;
