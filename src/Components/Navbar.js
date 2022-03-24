@@ -1,12 +1,22 @@
 import React from 'react';
-import NavItems from './NavItems';
+import { Link } from 'react-router-dom';
 import './style.scss';
 
 const Navbar = () => {
   return (
     <div className="navbar">
       <img className="logo" src="./images/logo.svg" alt="band-logo" />
-      <NavItems />
+      <div className="nav-items">
+        <Link className="link" to="events">
+          Events
+        </Link>
+        <Link className="link" to="music">
+          Music
+        </Link>
+        <Link className="link" to="community">
+          Community
+        </Link>
+      </div>
     </div>
   );
 };
