@@ -20,7 +20,7 @@
 .music-title {
   flex: 2;
   min-width: 300px;
-  margin: 10px auto;
+  margin-left: 2%;
   text-align: left;
   //   border: 1px solid red;
 }
@@ -29,7 +29,7 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
-  align-items: flex-start;
+  align-items: center;
   width: 100%;
   padding: 5px;
   margin: 0 10px;
@@ -45,9 +45,13 @@
   background: linear-gradient(0deg, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.2));
 }
 
-@media (max-width: 1350px) {
+@media (max-width: 1000px) {
   .music-cards {
     max-width: 600px;
+  }
+  .music-title {
+    text-align: center;
+    margin-bottom: 3%;
   }
 }
 
