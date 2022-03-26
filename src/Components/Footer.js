@@ -3,6 +3,8 @@ import spotifyIcon from '../icons/spotify-icon.svg';
 import instagramIcon from '../icons/instagram-icon.svg';
 import facebookIcon from '../icons/facebook-icon.svg';
 import youtubeIcon from '../icons/youtube-icon.svg';
+import appleMusicIcon from '../icons/apple-music-icon.svg';
+import tidalIcon from '../icons/tidal-icon.svg';
 import './Footer.scss';
 
 const Footer = () => {
@@ -19,6 +21,12 @@ const Footer = () => {
       </a>
       <a href="https://www.youtube.com/channel/UCXyQaRr4I7wIwtRSrFdyDnA" target="_blank" rel="noopener noreferrer">
         <img className="footer-item" src={youtubeIcon} alt="Youtube icon" />
+      </a>
+      <a href="https://music.apple.com/pl/artist/fungy/1530002852" target="_blank" rel="noopener noreferrer">
+        <img className="footer-item" src={appleMusicIcon} alt="Apple Music icon" />
+      </a>
+      <a href="https://tidal.com/browse/artist/21139499" target="_blank" rel="noopener noreferrer">
+        <img className="footer-item" src={tidalIcon} alt="Tidal icon" />
       </a>
     </div>
   );

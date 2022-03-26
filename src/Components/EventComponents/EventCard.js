@@ -3,7 +3,7 @@ import '../Pages/Events.scss';
 
 const EventCard = ({ event }) => {
   return (
-    <div className="event-card" style={event.id == 1 ? { border: 'none' } : {}}>
+    <div className="event-card" style={event.id === 1 ? { border: 'none' } : {}}>
       <div className="event-details">
         <div style={{ fontSize: '18px' }}>{event.name}</div>
         <div style={{ fontSize: '14px' }}>with</div>
