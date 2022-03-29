@@ -1,0 +1,61 @@
+.socialMediaIcon:hover {
+    transform: scale(1.1);
+}
+
+.socialMediaIcon {
+    height: 40px;
+    width: 40px;
+    margin: 10px 20px;
+    filter: invert(100%);
+    transition: 0.25s;
+}
+
+.socialLinks {
+    display: flex;
+    flex: 1;
+    justify-content: space-around;
+    // border: 1px solid red;
+}
+
+.musicTitle {
+    flex: 1;
+    min-width: 300px;
+    margin-left: 2%;
+    text-align: left;
+    // border: 1px solid red;
+}
+
+.musicCard {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    padding: 5px;
+    margin: 0 10px;
+    border-bottom: 1px solid white;
+}
+
+.musicCards {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 80%;
+    margin: 3% auto;
+    border-radius: 10px;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.2));
+}
+
+@media (max-width: 1000px) {
+    .musicCards {
+        max-width: 600px;
+    }
+    .musicTitle {
+        text-align: center;
+        margin-bottom: 3%;
+    }
+}
+
+.musicPage {
+    margin: 0px 5%;
+    width: 100%;
+}

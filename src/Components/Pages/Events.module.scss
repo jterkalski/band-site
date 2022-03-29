@@ -1,0 +1,39 @@
+.eventDetails {
+    //   border: 1px solid white;
+    max-width: 150px;
+    flex: 1;
+    min-width: 300px;
+    margin: 10px 0;
+}
+
+.eventCards {
+    display: flex;
+    text-align: center;
+    flex-wrap: wrap;
+    max-width: 80%;
+    margin: 3% auto;
+    border-radius: 10px;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.2));
+}
+
+@media (max-width: 1350px) {
+    .eventCards {
+        max-width: 600px;
+    }
+}
+
+.eventCard {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    padding: 5px;
+    margin: 0 10px;
+    border-bottom: 1px solid white;
+}
+
+.eventsPage {
+    margin: 0px 5%;
+    width: 100%;
+}

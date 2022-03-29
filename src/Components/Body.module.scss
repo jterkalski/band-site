@@ -1,0 +1,25 @@
+.body::-webkit-scrollbar {
+    width: 10px;
+    height: 15px;
+}
+
+.body::-webkit-scrollbar-track {
+    background: transparent;
+    border: 5px solid rgba(0, 0, 0, 0);
+}
+
+.body::-webkit-scrollbar-thumb {
+    background-color: white;
+    border-radius: 20px;
+}
+
+.body {
+    flex: 11;
+    display: flex;
+    min-height: 200px;
+    justify-content: center;
+    color: #fff;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    margin: 5px 10px 65px 10px;
+}

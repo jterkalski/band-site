@@ -1,13 +1,13 @@
 import React from 'react';
-import './Events.scss';
+import styles from './Events.module.scss';
 import EventCards from '../EventComponents/EventCards';
 
 const Events = () => {
-  return (
-    <div className="events-page">
-      <EventCards />
-    </div>
-  );
+    return (
+        <div className={styles.eventsPage}>
+            <EventCards />
+        </div>
+    );
 };
 
 export default Events;

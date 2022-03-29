@@ -1,8 +1,8 @@
 import React from 'react';
-import './Community.scss';
+import styles from './Community.module.scss';
 
 const Community = () => {
-  return <div className="community-page">Community</div>;
+    return <div className={styles.communityPage}>Community</div>;
 };
 
 export default Community;
