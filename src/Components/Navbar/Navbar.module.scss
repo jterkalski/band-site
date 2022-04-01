@@ -33,7 +33,6 @@
 
 .navItems .link {
     text-decoration: none;
-    font-family: 'Franklin Gothic', Helvetica, Arial, sans-serif;
     font-size: 1.5rem;
     line-height: 2rem;
     color: #fff;
@@ -61,7 +60,8 @@
     display: flex;
     min-height: 50px;
     align-items: center;
-    background: linear-gradient(0deg, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5));
+    // background: linear-gradient(0deg, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5));
+    background: rgba(0, 0, 0, 0.2);
     position: sticky;
     top: 0;
 }

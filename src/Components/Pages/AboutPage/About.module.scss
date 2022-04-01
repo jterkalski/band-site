@@ -1,0 +1,89 @@
+.description {
+    height: 10%;
+    border: 1px solid yellowgreen;
+}
+
+.infoItem {
+    align-self: center;
+    width: 100%;
+    border: 1px solid blue;
+}
+
+.info {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    height: 15%;
+    border: 1px solid rgb(244, 248, 0);
+}
+
+.memberName {
+    text-align: center;
+    margin: 20% 0 0 0;
+    width: 100%;
+    font-size: 1.3rem;
+    line-height: 2rem;
+    // border: 1px solid white;
+}
+
+.instrumentName {
+    align-self: flex-end;
+    text-align: center;
+    min-width: 100%;
+    margin-top: 10%;
+    // border: 1px solid red;
+}
+
+.memberIcon {
+    height: 100%;
+    filter: brightness(0%);
+}
+
+.memberIconContainer {
+    height: 100%;
+}
+
+.memberAvatar {
+    display: flex;
+    flex-wrap: wrap;
+    flex: 3;
+    height: 30%;
+    min-width: 100%;
+    justify-content: center;
+    margin: 15% 0 0 0;
+    // border: 1px solid red;
+}
+
+.memberCard {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    width: 16%;
+    min-width: 15%;
+    border: 1px solid black;
+    border-radius: 10px;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.2));
+}
+
+.memberCards {
+    display: flex;
+    justify-content: space-evenly;
+    height: 50%;
+    border: 1px solid white;
+    padding: 1% 0;
+}
+
+.aboutPage {
+    margin: 0px 5%;
+    width: 100%;
+    animation: fade 0.4s ease-in-out forwards;
+    // animation-fill-mode: forwards;
+    opacity: 0;
+    border: 1px solid red;
+}
+
+@keyframes fade {
+    100% {
+        opacity: 1;
+    }
+}
