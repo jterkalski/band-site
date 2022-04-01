@@ -1,10 +1,10 @@
 import React from 'react';
-import './Music.module.scss';
+import styles from './Music.module.scss';
 import MusicCards from '../MusicComponents/MusicCards';
 
 const Music = () => {
     return (
-        <div className="musicPage">
+        <div className={styles.musicPage}>
             <MusicCards />
         </div>
     );

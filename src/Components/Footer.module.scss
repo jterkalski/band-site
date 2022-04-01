@@ -20,12 +20,6 @@
     }
 }
 
-@media (max-width: 350px) {
-    .footer {
-        display: none;
-    }
-}
-
 .footer {
     flex: 1;
     align-items: center;
@@ -38,9 +32,15 @@
     left: 0;
     background: linear-gradient(0deg, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
     margin-right: 20px;
-    animation: fade 0.5s ease-in-out forwards;
+    animation: fade 0.5s ease-in-out forwards; // animation-fill-mode: forwards;
     opacity: 0;
     transform: translateY(50%);
+}
+
+@media (max-width: 350px) {
+    .footer {
+        display: none;
+    }
 }
 
 @keyframes fade {

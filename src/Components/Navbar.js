@@ -9,13 +9,13 @@ const Navbar = () => {
             <img className={styles.logo} src={logo} alt="band-logo" />
             <div className={styles.navItems}>
                 <Link className={styles.link} to="events">
-                    Events
+                    Wydarzenia
                 </Link>
                 <Link className={styles.link} to="music">
-                    Music
+                    Muzyka
                 </Link>
                 <Link className={styles.link} to="community">
-                    Community
+                    O nas
                 </Link>
             </div>
         </div>

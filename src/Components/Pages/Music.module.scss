@@ -43,6 +43,7 @@
     margin: 3% auto;
     border-radius: 10px;
     background: linear-gradient(0deg, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.2));
+    animation: fade;
 }
 
 @media (max-width: 1000px) {
@@ -58,4 +59,13 @@
 .musicPage {
     margin: 0px 5%;
     width: 100%;
+    animation: fade 0.4s ease-in-out forwards;
+    // animation-fill-mode: forwards;
+    opacity: 0;
+}
+
+@keyframes fade {
+    100% {
+        opacity: 1;
+    }
 }

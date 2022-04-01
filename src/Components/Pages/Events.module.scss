@@ -36,4 +36,13 @@
 .eventsPage {
     margin: 0px 5%;
     width: 100%;
+    animation: fade 0.4s ease-in-out forwards;
+    // animation-fill-mode: forwards;
+    opacity: 0;
+}
+
+@keyframes fade {
+    100% {
+        opacity: 1;
+    }
 }
