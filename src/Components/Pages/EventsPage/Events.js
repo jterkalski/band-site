@@ -1,6 +1,6 @@
 import React from 'react';
 import styles from './Events.module.scss';
-import EventCards from '../EventComponents/EventCards';
+import EventCards from './EventComponents/EventCards';
 
 const Events = () => {
     return (

@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import logo from '../icons/logo.svg';
+import logo from '../../icons/logo.svg';
 import styles from './Navbar.module.scss';
 
 const Navbar = () => {
@@ -14,7 +14,7 @@ const Navbar = () => {
                 <Link className={styles.link} to="music">
                     Muzyka
                 </Link>
-                <Link className={styles.link} to="community">
+                <Link className={styles.link} to="about">
                     O nas
                 </Link>
             </div>

@@ -1,9 +1,9 @@
 import React from 'react';
-import spotifyIcon from '../../icons/spotify-icon.svg';
-import youtubeIcon from '../../icons/youtube-icon.svg';
-import appleMusicIcon from '../../icons/apple-music-icon.svg';
-import tidalIcon from '../../icons/tidal-icon.svg';
-import styles from '../Pages/Music.module.scss';
+import spotifyIcon from '../../../../icons/spotify-icon.svg';
+import youtubeIcon from '../../../../icons/youtube-icon.svg';
+import appleMusicIcon from '../../../../icons/apple-music-icon.svg';
+import tidalIcon from '../../../../icons/tidal-icon.svg';
+import styles from '../Music.module.scss';
 
 const MusicCard = ({ song }) => {
     return (

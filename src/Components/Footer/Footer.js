@@ -1,10 +1,10 @@
 import React from 'react';
-import spotifyIcon from '../icons/spotify-icon.svg';
-import instagramIcon from '../icons/instagram-icon.svg';
-import facebookIcon from '../icons/facebook-icon.svg';
-import youtubeIcon from '../icons/youtube-icon.svg';
-import appleMusicIcon from '../icons/apple-music-icon.svg';
-import tidalIcon from '../icons/tidal-icon.svg';
+import spotifyIcon from '../../icons/spotify-icon.svg';
+import instagramIcon from '../../icons/instagram-icon.svg';
+import facebookIcon from '../../icons/facebook-icon.svg';
+import youtubeIcon from '../../icons/youtube-icon.svg';
+import appleMusicIcon from '../../icons/apple-music-icon.svg';
+import tidalIcon from '../../icons/tidal-icon.svg';
 import styles from './Footer.module.scss';
 
 const Footer = () => {

@@ -1,6 +1,6 @@
 import React from 'react';
 import MusicCard from './MusicCard';
-import styles from '../Pages/Music.module.scss';
+import styles from '../Music.module.scss';
 
 const MusicCards = () => {
     return (

@@ -1,5 +1,5 @@
 import React from 'react';
-import styles from '../Pages/Events.module.scss';
+import styles from '../Events.module.scss';
 
 const EventCard = ({ event }) => {
     return (
