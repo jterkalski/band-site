@@ -41,7 +41,7 @@
     display: flex;
     flex-wrap: wrap;
     width: 100%;
-    margin: 1% 0;
+    margin: 1% 2%;
     border-radius: 10px;
     background: linear-gradient(0deg, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.5));
 }
@@ -92,14 +92,14 @@
 .memberCard {
     display: flex;
     flex-wrap: wrap;
-    width: 15vw;
-    min-width: 200px;
+    width: 16vw;
+    min-width: 300px;
     height: 50vh;
     min-height: 300px;
-    border: 1px solid black;
-    border-radius: 10px;
     margin: 2%;
     background: linear-gradient(0deg, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.2));
+    border-radius: 10px;
+    // border: 1px solid black;
 }
 
 .memberCards {
@@ -109,6 +109,17 @@
     width: 100%;
     padding: 1% 0;
     // border: 1px solid white;
+}
+
+@media (max-width: 1650px) {
+    .memberCards {
+        max-width: 1000px;
+        margin: auto;
+    }
+
+    .memberCard {
+        width: 22vw;
+    }
 }
 
 .aboutPage {
