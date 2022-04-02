@@ -9,14 +9,14 @@ const Info = () => {
             <div className={styles.infoItem}>
                 <div className={styles.infoHeader}>
                     <IoLocationSharp className={styles.infoIcon} size={70} />
-                    <div>Location</div>
+                    <div>Lokalizacja</div>
                 </div>
-                <div className={styles.infoDetails}>Kraków, Poland</div>
+                <div className={styles.infoDetails}>Kraków</div>
             </div>
             <div className={styles.infoItem}>
                 <div className={styles.infoHeader}>
                     <MdEmail className={styles.infoIcon} size={70} />
-                    <div>Contact</div>
+                    <div>Kontakt</div>
                 </div>
                 <div className={styles.infoDetails}>bepis.boys.01@gmail.com</div>
             </div>
