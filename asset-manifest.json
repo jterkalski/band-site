@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/fungy-band/static/css/main.480edc51.css",
+    "main.js": "/fungy-band/static/js/main.9b124161.js",
+    "static/js/787.5a713362.chunk.js": "/fungy-band/static/js/787.5a713362.chunk.js",
+    "static/media/background2.jpg": "/fungy-band/static/media/background2.ec4b74579b83a25ffed1.jpg",
+    "static/media/logo.svg": "/fungy-band/static/media/logo.c22dd3a58f52df07dc9cc8fc05fc5a89.svg",
+    "static/media/drums-icon.svg": "/fungy-band/static/media/drums-icon.45a110bb2aa929bff8305ce192c3b6f2.svg",
+    "static/media/instagram-icon.svg": "/fungy-band/static/media/instagram-icon.7b6f6aa7f307c316562634c1f14b8aa8.svg",
+    "static/media/guitar-icon.svg": "/fungy-band/static/media/guitar-icon.5ceea4d351c81ecdab4b25d703e61bfc.svg",
+    "static/media/bass-icon.svg": "/fungy-band/static/media/bass-icon.81702c5b1d5f4324a3c747c7b8903c5a.svg",
+    "static/media/apple-music-icon.svg": "/fungy-band/static/media/apple-music-icon.0fe24184be85ed996f1eacbd76905bf9.svg",
+    "static/media/microphone-icon.svg": "/fungy-band/static/media/microphone-icon.fc6540b0a21b17975c37db45a147efb7.svg",
+    "static/media/tidal-icon.svg": "/fungy-band/static/media/tidal-icon.186d9d01b2d9eb70a77d66d1eb96f6c7.svg",
+    "index.html": "/fungy-band/index.html",
+    "static/media/youtube-icon.svg": "/fungy-band/static/media/youtube-icon.bdb14890d6ed391a248be70a0588f3af.svg",
+    "static/media/spotify-icon.svg": "/fungy-band/static/media/spotify-icon.6ded082f491083b42b315c79a7b2bb8a.svg",
+    "static/media/facebook-icon.svg": "/fungy-band/static/media/facebook-icon.31b0ada1ed98d064fe43c889dcec17a5.svg",
+    "main.480edc51.css.map": "/fungy-band/static/css/main.480edc51.css.map",
+    "main.9b124161.js.map": "/fungy-band/static/js/main.9b124161.js.map",
+    "787.5a713362.chunk.js.map": "/fungy-band/static/js/787.5a713362.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.480edc51.css",
+    "static/js/main.9b124161.js"
+  ]
+}
