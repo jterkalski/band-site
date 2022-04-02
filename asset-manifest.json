@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/band-site/static/css/main.17bc3529.css",
-    "main.js": "/band-site/static/js/main.3c4e292e.js",
+    "main.css": "/band-site/static/css/main.25a756c3.css",
+    "main.js": "/band-site/static/js/main.7c1fce87.js",
     "static/js/787.5a713362.chunk.js": "/band-site/static/js/787.5a713362.chunk.js",
     "static/media/background2.jpg": "/band-site/static/media/background2.ec4b74579b83a25ffed1.jpg",
     "static/media/logo.svg": "/band-site/static/media/logo.c22dd3a58f52df07dc9cc8fc05fc5a89.svg",
@@ -16,12 +16,12 @@
     "static/media/youtube-icon.svg": "/band-site/static/media/youtube-icon.bdb14890d6ed391a248be70a0588f3af.svg",
     "static/media/spotify-icon.svg": "/band-site/static/media/spotify-icon.6ded082f491083b42b315c79a7b2bb8a.svg",
     "static/media/facebook-icon.svg": "/band-site/static/media/facebook-icon.31b0ada1ed98d064fe43c889dcec17a5.svg",
-    "main.17bc3529.css.map": "/band-site/static/css/main.17bc3529.css.map",
-    "main.3c4e292e.js.map": "/band-site/static/js/main.3c4e292e.js.map",
+    "main.25a756c3.css.map": "/band-site/static/css/main.25a756c3.css.map",
+    "main.7c1fce87.js.map": "/band-site/static/js/main.7c1fce87.js.map",
     "787.5a713362.chunk.js.map": "/band-site/static/js/787.5a713362.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.17bc3529.css",
-    "static/js/main.3c4e292e.js"
+    "static/css/main.25a756c3.css",
+    "static/js/main.7c1fce87.js"
   ]
 }
