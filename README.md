@@ -1,3 +1,7 @@
+# GitHub Pages
+
+The website is available at the following link: https://jterkalski.github.io/band-site/
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
